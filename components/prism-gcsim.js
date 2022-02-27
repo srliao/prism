@@ -23,15 +23,6 @@ Prism.languages.gcsim = {
 		pattern: /debug|iteration|duration|workers|mode/,
 		alias: "tag",
 	},
-	stats: {
-		pattern:
-			/(?:\s)(hp(\%)?|atk(\%)?|def(\%)?|er|em|cr|cd|heal|pyro\%|hydro\%|cryo\%|electro\%|anemo\%|geo\%|phys\%|dendro\%)/,
-		alias: "tag",
-	},
-	mode: {
-		pattern: /(sl|apl)/,
-		alias: "string",
-	},
 	abilities: {
 		pattern:
 			/skill|burst|attack|charge|aim|high_plunge|low_plunge|jump|dash/,
@@ -43,8 +34,17 @@ Prism.languages.gcsim = {
 		alias: "constant",
 	},
 	other: {
-		pattern: /value|max|filler|interval|every|once|amount|ele|resist/,
+		pattern:
+			/value|max|filler|interval|every|once|amount|ele(ctro)?(\%)?|resist|pyro(\%)?|dendro(\%)?|hydro(\%)?|geo(\%)?|anemo(\%)?|physical|cryo(\%)?/,
 		alias: "tag",
+	},
+	stats: {
+		pattern: /(?:\s)(hp(\%)?|atk(\%)?|def(\%)?|er|em|cr|cd|heal|phys\%)/,
+		alias: "tag",
+	},
+	mode: {
+		pattern: /(sl|apl)/,
+		alias: "string",
 	},
 	flags: {
 		pattern:
