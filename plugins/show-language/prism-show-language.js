@@ -99,6 +99,7 @@
 		"gamemakerlanguage": "GameMaker Language",
 		"gap": "GAP (CAS)",
 		"gcode": "G-code",
+		"gcsim": "gcsim code",
 		"gdscript": "GDScript",
 		"gedcom": "GEDCOM",
 		"gettext": "gettext",
