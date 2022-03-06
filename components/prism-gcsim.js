@@ -16,39 +16,39 @@ Prism.languages.gcsim = {
 	},
 	keywords: {
 		pattern:
-			/chain|wait_for|wait|restart|reset_limit|hurt|target(?: )|energy(?: )|active(?: )|options(?: )|add(?: )|char(?: )|stats(?: )|weapon|set|lvl|refine|cons|talent|start_hp|count|params|label|until/,
+			/\b(chain|wait_for|wait(?: )|restart|reset_limit|hurt|target|energy|active|options|add|char|stats|weapon|set|lvl|refine|cons|talent|start_hp|count|\+params|until)\b/,
 		alias: "keyword",
 	},
 	options: {
-		pattern: /debug|iteration|duration|workers|mode/,
+		pattern: /\b(debug|iteration|duration|workers|mode)\b/,
 		alias: "tag",
 	},
 	abilities: {
 		pattern:
-			/skill|burst|attack|charge|aim|high_plunge|low_plunge|jump|dash/,
+			/\b(skill|burst|attack|charge|aim|high_plunge|low_plunge|jump|dash)\b/,
 		alias: "function",
 	},
 	characters: {
 		pattern:
-			/travelerelectro|traveleranemo|travelergeo|travelerhydro|travelercryo|travelerpyro|travelerdendro|albedo|aloy|amber|barbara|beidou|bennett|chongyun|diluc|diona|eula|fischl|ganyu|hutao|jean|kaedeharakazuha|kazuha|kaeya|kamisatoayaka|ayaka|keqing|klee|kujousara|kujosara|sara|lisa|mona|ningguang|noelle|qiqi|raidenshogun|raiden|razor|rosaria|sangonomiyakokomi|kokomi|sayu|sucrose|tartaglia|thoma|venti|xiangling|xiao|xingqiu|xinyan|yanfei|yoimiya|yunjin|zhongli|gorou|aratakiitto|itto|shenhe|yae(miko)?/,
+			/\b(travelerelectro|traveleranemo|travelergeo|travelerhydro|travelercryo|travelerpyro|travelerdendro|albedo|aloy|amber|barbara|beidou|bennett|chongyun|diluc|diona|eula|fischl|ganyu|hutao|jean|kaedeharakazuha|kazuha|kaeya|kamisatoayaka|ayaka|keqing|klee|kujousara|kujosara|sara|lisa|mona|ningguang|noelle|qiqi|raidenshogun|raiden|razor|rosaria|sangonomiyakokomi|kokomi|sayu|sucrose|tartaglia|thoma|venti|xiangling|xiao|xingqiu|xinyan|yanfei|yoimiya|yunjin|zhongli|gorou|aratakiitto|itto|shenhe|yae(miko)?)\b/,
 		alias: "constant",
 	},
 	other: {
 		pattern:
-			/value|max|filler|interval|every|once|amount|ele(ctro)?(\%)?|resist|pyro(\%)?|dendro(\%)?|hydro(\%)?|geo(\%)?|anemo(\%)?|physical|cryo(\%)?/,
+			/\b(value|max|filler|interval|every|once|amount|ele(ctro)?(\%)?|resist|pyro(\%)?|dendro(\%)?|hydro(\%)?|geo(\%)?|anemo(\%)?|physical|cryo(\%)?)/,
 		alias: "tag",
 	},
 	stats: {
-		pattern: /(?:\s)(hp(\%)?|atk(\%)?|def(\%)?|er|em|cr|cd|heal|phys\%)/,
+		pattern: /\b((hp(\%)?|atk(\%)?|def(\%)?|er|em|cr|cd|heal|phys\%))/,
 		alias: "tag",
 	},
-	mode: {
-		pattern: /(sl|apl)/,
+	stringkeys: {
+		pattern: /\b(sl|apl)\b/,
 		alias: "string",
 	},
 	flags: {
 		pattern:
-			/\+if|\+swap_to|\+swap_lock|\+is_onfield|\+needs|\+limit|\+timeout|\+try|\+drop/,
+			/(\+if|\+swap_to|\+swap_lock|\+is_onfield|\+needs|\+limit|\+timeout|\+try|\+drop|\+label)\b/,
 		alias: "tag",
 	},
 	number: /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
