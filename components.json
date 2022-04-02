@@ -532,7 +532,7 @@
 		},
 		"gcsim": {
 			"title": "gcsim code",
-			"owern": "genshinsim"
+			"owner": "genshinsim"
 		},
 		"gdscript": {
 			"title": "GDScript",
@@ -609,7 +609,10 @@
 		"handlebars": {
 			"title": "Handlebars",
 			"require": "markup-templating",
-			"alias": ["hbs", "mustache"],
+			"alias": [
+				"hbs",
+				"mustache"
+			],
 			"aliasTitles": {
 				"mustache": "Mustache"
 			},
@@ -1418,7 +1421,11 @@
 		},
 		"stata": {
 			"title": "Stata Ado",
-			"require": ["mata", "java", "python"],
+			"require": [
+				"mata",
+				"java",
+				"python"
+			],
 			"owner": "RunDevelopment"
 		},
 		"iecst": {
