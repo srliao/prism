@@ -30,7 +30,7 @@ Prism.languages.gcsim = {
 	},
 	characters: {
 		pattern:
-			/\b(?:travelerelectro|traveleranemo|travelergeo|travelerhydro|travelercryo|travelerpyro|travelerdendro|albedo|aloy|amber|barbara|beidou|bennett|chongyun|diluc|diona|eula|fischl|ganyu|hutao|jean|kaedeharakazuha|kazuha|kaeya|kamisatoayaka|ayaka|kamisatoayato|ayato|keqing|klee|kujousara|kujosara|sara|lisa|mona|ningguang|noelle|qiqi|raidenshogun|raiden|razor|rosaria|sangonomiyakokomi|kokomi|sayu|sucrose|tartaglia|thoma|venti|xiangling|xiao|xingqiu|xinyan|yanfei|yoimiya|yunjin|zhongli|gorou|aratakiitto|itto|shenhe|yae(?:miko)?|yelan|kuki|kukishinobu)\b/,
+			/\b(?:travelerelectro|traveleranemo|travelergeo|travelerhydro|travelercryo|travelerpyro|travelerdendro|albedo|aloy|amber|barbara|beidou|bennett|chongyun|diluc|diona|eula|fischl|ganyu|hutao|jean|kaedeharakazuha|kazuha|kaeya|kamisatoayaka|ayaka|kamisatoayato|ayato|keqing|klee|kujousara|kujosara|sara|lisa|mona|ningguang|noelle|qiqi|raidenshogun|raiden|razor|rosaria|sangonomiyakokomi|kokomi|sayu|sucrose|tartaglia|thoma|venti|xiangling|xiao|xingqiu|xinyan|yanfei|yoimiya|yunjin|zhongli|gorou|aratakiitto|itto|shenhe|yae(?:miko)?|yelan|kuki|kukishinobu|shikanoinheizou|heizou)\b/,
 		alias: "constant",
 	},
 	other: {
