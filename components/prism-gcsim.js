@@ -43,11 +43,6 @@ Prism.languages.gcsim = {
 			/\b(?:(?:hp(?:\%)?|atk(?:\%)?|def(?:\%)?|er|em|cr|cd|heal|phys\%))/,
 		alias: "tag",
 	},
-	flags: {
-		pattern:
-			/(?:\+if|\+swap_to|\+swap_lock|\+is_onfield|\+needs|\+limit|\+timeout|\+try|\+drop|\+label)\b/,
-		alias: "tag",
-	},
 	number: /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
 	punctuation: /[{}[\],]/,
 	operator: /:/,
