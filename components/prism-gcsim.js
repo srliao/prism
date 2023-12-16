@@ -43,10 +43,6 @@ Prism.languages.gcsim = {
 			/\b(?:(?:hp(?:\%)?|atk(?:\%)?|def(?:\%)?|er|em|cr|cd|heal|phys\%))/,
 		alias: "tag",
 	},
-	stringkeys: {
-		pattern: /\b(?:sl|apl)\b/,
-		alias: "string",
-	},
 	flags: {
 		pattern:
 			/(?:\+if|\+swap_to|\+swap_lock|\+is_onfield|\+needs|\+limit|\+timeout|\+try|\+drop|\+label)\b/,
