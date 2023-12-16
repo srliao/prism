@@ -25,7 +25,7 @@ Prism.languages.gcsim = {
 	},
 	abilities: {
 		pattern:
-			/\b(?:skill|burst|attack|charge|aim|high_plunge|low_plunge|jump|dash)\b/,
+			/\b(?:attack|charge|aim|skill|burst|low_plunge|high_plunge|dash|jump|walk|swap)\b/,
 		alias: "function",
 	},
 	characters: {
