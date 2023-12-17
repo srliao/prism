@@ -35,7 +35,7 @@ Prism.languages.gcsim = {
 	},
 	other: {
 		pattern:
-			/\b(?:interval|every|once|amount|electro(?:\%)?|element|resist|pyro(?:\%)?|dendro(?:\%)?|hydro(?:\%)?|geo(?:\%)?|anemo(?:\%)?|physical|cryo(?:\%)?|start_hp|start_energy|pos|radius|freeze_resist)/,
+			/\b(?:interval|every|once|amount|electro(?:\%)?|element|resist|pyro(?:\%)?|dendro(?:\%)?|hydro(?:\%)?|geo(?:\%)?|anemo(?:\%)?|physical|cryo(?:\%)?|start_hp(?:\%)?|start_energy|pos|radius|freeze_resist)/,
 		alias: "tag",
 	},
 	stats: {
@@ -47,7 +47,7 @@ Prism.languages.gcsim = {
 	punctuation: /[{}[\],();.]/,
 	operator: /:|\+|-|\*|\/|[!=]=?|>(?:=)?|<(?:=)?|\|\||&&/,
 	boolean: /\b(?:false|true)\b/,
-	builtin: /\b(?:print|sleep|wait|delay|f|rand|randnorm|set_particle_delay|set_default_target|set_player_pos|set_target_pos|kill_target)\b/
+	builtin: /\b(?:print|sleep|wait|delay|f|rand|randnorm|type|execute_action|set_particle_delay|set_default_target|set_player_pos|set_target_pos|kill_target|sin|cos|asin|acos|set_on_tick)\b/
 };
 
 // Prism.languages.webmanifest = Prism.languages.gcsim;
