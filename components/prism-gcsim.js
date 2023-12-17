@@ -45,7 +45,7 @@ Prism.languages.gcsim = {
 	},
 	number: /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
 	punctuation: /[{}[\],]/,
-	operator: /:/,
+	operator: /:|\+|-|\*|\/|[!=]=?|>(?:=)?|<(?:=)?|\|\||&&/,
 	boolean: /\b(?:false|true)\b/,
 };
 
