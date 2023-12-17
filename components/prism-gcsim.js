@@ -16,7 +16,7 @@ Prism.languages.gcsim = {
 	},
 	keywords: {
 		pattern:
-			/\b(?:chain|wait_for|wait(?: )|restart|reset_limit|hurt|target|energy|active|options|add|char|stats|weapon|set|lvl|refine|cons|talent|start_hp|count|\+params|until)\b/,
+			/\b(?:hurt|target|energy|active|options|add|char|stats|weapon|set|lvl|refine|cons|talent|count|\+params|until)\b/,
 		alias: "keyword",
 	},
 	options: {
