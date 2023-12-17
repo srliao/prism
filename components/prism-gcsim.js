@@ -11,7 +11,7 @@ Prism.languages.gcsim = {
 		greedy: true,
 	},
 	comment: {
-		pattern: /\#.*/,
+		pattern: /\#.*|\/\/.*/,
 		greedy: true,
 	},
 	keywords: {
