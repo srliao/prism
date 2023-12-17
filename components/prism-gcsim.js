@@ -35,7 +35,7 @@ Prism.languages.gcsim = {
 	},
 	other: {
 		pattern:
-			/\b(?:interval|every|once|amount|ele(?:ctro)?(?:\%)?|resist|pyro(?:\%)?|dendro(?:\%)?|hydro(?:\%)?|geo(?:\%)?|anemo(?:\%)?|physical|cryo(?:\%)?)/,
+			/\b(?:interval|every|once|amount|electro(?:\%)?|element|resist|pyro(?:\%)?|dendro(?:\%)?|hydro(?:\%)?|geo(?:\%)?|anemo(?:\%)?|physical|cryo(?:\%)?)/,
 		alias: "tag",
 	},
 	stats: {
