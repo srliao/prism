@@ -47,7 +47,7 @@ Prism.languages.gcsim = {
 	punctuation: /[{}[\],();.]/,
 	operator: /:|\+|-|\*|\/|[!=]=?|>(?:=)?|<(?:=)?|\|\||&&/,
 	boolean: /\b(?:false|true)\b/,
-	builtin: /\b(?:print|sleep|wait|delay|f|rand|randnorm|set_particle_delay|set_default_target|set_player_pos|set_target_pos|kill_target)\b/
+	builtin: /\b(?:print|sleep|wait|delay|f|rand|randnorm|execute_action|set_particle_delay|set_default_target|set_player_pos|set_target_pos|kill_target|sin|cos|asin|acos|set_on_tick)\b/
 };
 
 // Prism.languages.webmanifest = Prism.languages.gcsim;
