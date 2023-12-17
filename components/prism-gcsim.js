@@ -44,7 +44,7 @@ Prism.languages.gcsim = {
 		alias: "tag",
 	},
 	number: /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
-	punctuation: /[{}[\],]/,
+	punctuation: /[{}[\],();]/,
 	operator: /:|\+|-|\*|\/|[!=]=?|>(?:=)?|<(?:=)?|\|\||&&/,
 	boolean: /\b(?:false|true)\b/,
 	builtin: /\b(?:print|sleep|wait|delay|f|rand|randnorm|set_particle_delay|set_default_target|set_player_pos|set_target_pos|kill_target)\b/
