@@ -20,7 +20,7 @@ Prism.languages.gcsim = {
 		alias: "keyword",
 	},
 	options: {
-		pattern: /\b(?:iteration|duration|swap_delay|workers|hitlag|defhalt)\b/,
+		pattern: /\b(?:iteration|duration|swap_delay|workers|hitlag|defhalt|ignore_burst_energy)\b/,
 		alias: "tag",
 	},
 	abilities: {
